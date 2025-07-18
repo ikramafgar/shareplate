@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+#root {
+  font-family: 'Poppins', sans-serif;
+  font-optical-sizing: auto;
+  font-size: normal;
+}
+
+/* Custom Color Utility Classes */
+.bg-primary { background-color: #10B981; }
+.bg-primary-dark { background-color: #047857; }
+.bg-accent { background-color: #F59E0B; }
+.bg-accent-dark { background-color: #D97706; }
+.bg-background { background-color: #F9FAFB; }
+.bg-surface { background-color: #FFFFFF; }
+
+.text-primary { color: #334155; }
+.text-muted { color: #64748B; }
+.text-error { color: #DC2626; }
+
+.border-primary { border-color: #10B981; }
+.border-accent { border-color: #F59E0B; }
+.border-error { border-color: #DC2626; }
+

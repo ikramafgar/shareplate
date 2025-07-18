@@ -1,0 +1,76 @@
+# ============================================
+# Global ignores (OS, editors, logs, etc.)
+# ============================================
+.DS_Store
+Thumbs.db
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ============================================
+# Environment variables
+# ============================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============================================
+# server & client shared
+# ============================================
+node_modules/
+
+# ============================================
+# Build output
+# ============================================
+dist/
+build/
+.cache/
+.eslintcache
+
+# ============================================
+# React (client)
+# ============================================
+client/node_modules/
+client/build/
+client/.env
+client/.next/
+client/.cache/
+client/.eslintcache
+
+# ============================================
+# Express/Node.js (server)
+# ============================================
+server/node_modules/
+server/dist/
+server/.env
+server/.eslintcache
+
+# ============================================
+# Coverage / Testing
+# ============================================
+coverage/
+*.lcov
+
+# ============================================
+# Optional: Mac and Linux system files
+# ============================================
+*.swp
+*.bak
+*.tmp
+*~
+
+# ============================================
+# Optional: Windows system files
+# ============================================
+ehthumbs.db
+Desktop.ini
